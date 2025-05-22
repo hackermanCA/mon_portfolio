@@ -49,6 +49,7 @@ body {
     text-align: justify; /* Optionnel : justifie le texte */
     font-size: 22px;
     margin-bottom: 45px;
+    white-space: normal; /* Permet au texte de revenir à la ligne normalement */
 }
 
 .main{
