@@ -18,25 +18,25 @@ body {
     border-radius: 20px;
 }
 
-.text-apropos{
+.texte-apropos{
     width: 55px;
 }
 
-.text-apropos h1{
+.texte-apropos h1{
     color: white;
     font-size: 60px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.text-apropos h5{
+.texte-apropos h5{
     color: white;
     font-size: 30px;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
 
-.text-apropos p{
+.texte-apropos p{
     color: #fcf;
     letter-spacing: 1px;
     line-height: 28px;
@@ -89,18 +89,18 @@ button:hover{
         max-width: none;
     }
 
-    .text-apropos h1{
+    .texte-apropos h1{
         font-size: 28px;
     }
-    .text-apropos h5{
+    .texte-apropos h5{
         font-size: 20px;
     }
     
-    .text-apropos p{
+    .texte-apropos p{
         font-size: 14px;
     }
     
-    .text-apropos{
+    .texte-apropos{
         width: 80%;
         text-align: center;
     }
