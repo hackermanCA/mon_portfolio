@@ -22,7 +22,10 @@ body {
 }
 
 .texte-apropos{
-    width: 55px;
+    display: block; /* Assure que le texte s'affiche normalement */
+    text-align: left; /* Aligne le texte à gauche */
+    max-width: 600px; /* Limite la largeur pour une meilleure lisibilité */
+    margin: 0 auto; /* Centre le contenu horizontalement */
 }
 
 .texte-apropos h1{
@@ -42,19 +45,20 @@ body {
 .texte-apropos p{
     color: #fcf;
     letter-spacing: 1px;
-    line-height: 28px;
-    text-align: justify;
+    line-height: 1.6; /* Améliore l'espacement entre les lignes */
+    text-align: justify; /* Optionnel : justifie le texte */
     font-size: 22px;
     margin-bottom: 45px;
 }
 
 .main{
     display: flex;
+    flex-direction: row; /* Aligne les enfants horizontalement */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Centre les éléments verticalement */
     width: 1130px;
     max-width: 100%;
     margin: 0 auto;
-    align-items: center;
-    justify-content: space-around;
 }
 
 span{
