@@ -17,10 +17,10 @@
             <div class="texte-apropos">
                 <h1>sacre mavuidi</h1>
                 <h5>otaku <span>& hacker</span></h5>
-                <p>Bonjour je suis sacre mavuidi étudiants en L1 LMD FASI<br>
-                   voici mon portfolio que j'ai eu à faire grâce à youtube sur le site ETCstore mon premier professeur en déveoppement web,
-                   aussi un grand joueur de pubg,
-                   merci
+                <p>
+                    Bonjour je suis sacre mavuidi étudiants en L1 LMD FASI<br>
+                    voici mon portfolio que j'ai eu à faire grâce à youtube sur le site ETCstore mon premier professeur en développement web,
+                    aussi un grand joueur de pubg, merci.
                 </p>
 
                 <div class="button-groupe">
@@ -37,11 +37,32 @@
     </section>
 
     <style>
+        /* Conteneur principal */
         .main {
             display: flex;
             flex-direction: row; /* Aligne les enfants horizontalement */
             justify-content: space-between; /* Espace entre les éléments */
             align-items: center; /* Centre les éléments verticalement */
+        }
+
+        /* Texte à propos */
+        .texte-apropos {
+            max-width: 600px; /* Limite la largeur du texte */
+            margin: 0 auto; /* Centre le texte horizontalement */
+            text-align: left; /* Aligne le texte à gauche */
+        }
+
+        .texte-apropos p {
+            white-space: normal; /* Permet au texte de revenir à la ligne normalement */
+            line-height: 1.6; /* Améliore l'espacement entre les lignes */
+            text-align: justify; /* Justifie le texte pour un rendu plus propre */
+        }
+
+        /* Boutons */
+        .button-groupe {
+            display: flex;
+            gap: 10px; /* Ajoute un espace entre les boutons */
+            margin-top: 20px;
         }
     </style>
 </body>
